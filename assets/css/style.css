@@ -56,41 +56,87 @@ nav ul li {
 
 body {
     background-color: var(--mainColor);
-    display: flex;
-    flex-wrap: wrap;
 }
 
-/* About Me */
+/* Body - About Me */
 
-section.aboutMe {
-    display: inline-block;
+.aboutMe {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 75%;
 }
 
 .aboutMe h2 {
     float: left;
     margin-left: 20%;
+    padding: 5%;
 }
 
 .aboutMe p {
     float: left;
-    margin-left: 20%;
-    margin-right: 40%;
-
 }
 
 .aboutMe img {
     border-radius: 50%;
     float: right;
     max-height: 300px;
-    margin-right: 20%;
+}
+
+/* Body - My Work */
+
+.myWork {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+.workImageMain img {
+    border-style: solid;
+    border-color: var(--frameColor);
+    border-width: 10px; 
+    max-height: 500px;
+}
+
+.workImageGeneric img {
+    max-height: 300px
+}
+
+figure {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
 }
 
 /* Footer Content */
 
 footer {
-    margin-top: 0;
-    bottom: 0;
+    text-align: center;
+    float: left;
+    width: 100%;
     border-bottom: 10px solid var(--extraColor);
-    color: black;    
+    color: black;
+    background-color: var(--topColor);    
   }
   
+/* Media Queries */
+
+@media screen and (max-width: 992px) {
+    .aboutMe {
+      width: 75%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .aboutMe {
+      width: 100%;
+    }
+    header {
+        display: inline-block;
+    }
+  }
