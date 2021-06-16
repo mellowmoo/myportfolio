@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>Muhaimen Ahmed's Portfolio</title>
+        <link rel="icon" href="./assets/images/favicon-16x16.png" type="image" sizes="16x16">
     </head>
 
     <body>
@@ -29,6 +30,7 @@
 
         </header>
 
+        <!-- Main Content -->
         <main>
 
             <!-- about me -->
@@ -53,17 +55,20 @@
                         This is a sample of what I've worked on so far.  The first project is _____. The second project is ____.  The third project is ______.
                     </p>
 
-                    <section class="workImageMain">
+                    <figure class="workImageMain">
                         <img src="./assets/images/codeRefactor.png" alt="Code Refactor Image">
-                    </section>
+                        <figcaption>
+                            Code refactoring of a <abbr title="Search Engine Optimization">SEO</abbr> website.
+                        </figcaption>
+                    </figure>
 
-                    <section class="workImageGeneric">
+                    <figure class="workImageGeneric">
                         <img src="./assets/images/placeHolder.png" alt="About Me Website Image">
-                    </section>
+                    </figure>
 
-                    <section class="workImageGeneric">
+                    <figure class="workImageGeneric">
                         <img src="./assets/images/placeHolder.png" alt="Portfolio Image">
-                    </section>
+                    </figure>
                 
                 </section>
             </a>
@@ -72,11 +77,31 @@
                 <section class="contactMe">
                     <h2>
                         Contact Me
-                    </h2> 
+                    </h2>
+                    <form>
+                        <ul>
+                          <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user-name">
+                          </li>
+                          <li>
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="user-email">
+                          </li>
+                        </ul>
+                        <div class="textCenter">
+                          <button type="submit">SEND</button>
+                        </div>
+                      </form>
                 </section>
             </a>
 
         </main>
+
+        <!-- Footer Content -->
+        <footer>
+            <h3>Made with ❤️️ by Muhaimen Ahmed</h3>
+        </footer>
 
     </body>
 
