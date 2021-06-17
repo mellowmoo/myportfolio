@@ -7,6 +7,9 @@ The link to the deployed project is below.
 https://mellowmoo.github.io/myportfolio/
 
 
+Here is a screenshot of the deployed website.
+
+![deployedScreenshot](https://user-images.githubusercontent.com/84346437/122326565-7f6e1a00-cefa-11eb-8c71-216a25c7abae.PNG)
 
 
 
