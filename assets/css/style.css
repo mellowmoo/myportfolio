@@ -102,7 +102,7 @@ body {
     width: 80%;
     border-color: var(--frameColor); 
     max-height: 400px;
-    width: 100%;
+    object-fit: cover;
 }
 
 .workImageGeneric img {
@@ -111,7 +111,8 @@ body {
     padding: 10px;
     float: left;
     width: 80%;
-    max-height: 300px
+    max-height: 300px;
+    object-fit: cover;
 }
 
 figure {
